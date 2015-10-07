@@ -8,6 +8,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+//Added a very important comment
 namespace PurduePlanner.Droid
 {
 	[Activity (Label = "PurduePlanner.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -20,6 +21,7 @@ namespace PurduePlanner.Droid
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
 			LoadApplication (new App ());
+			int x = 0;
 		}
 	}
 }
